@@ -1,0 +1,62 @@
+$primary: #001d9c;
+$secondary: #baa15b;
+$bege: #d9c5a4;
+$third: #afafaf;
+$white: #fff;
+$mask: #353738;
+$success: rgba(90,178,1,1);
+$info: #a5e5f3;
+$warning: #e8ab40;
+$danger: #ffadbb;
+$error: #e92d4d;
+$light: #DCDCDC;
+$silver: #f2f3f5;
+$lead: #616161;
+$gray: #a79f9f;
+$dark: #1C1C1C;
+$lemon: #f2fad5;
+$purple: #9205ea;
+$pink: #f43b99;
+$white: #ffffff;
+$info2: #DAA520;
+$black: #000;
+
+$theme-colors : (
+    "primary":    $primary,
+    "secondary":  $secondary,
+    "success":    $success,
+    "info":       $info,
+    "warning":    $warning,
+    "danger":     $danger,
+    "light":      $light,
+    "dark":       $dark,
+    "silver":     $silver
+);
+
+@font-face {
+    font-family: 'Clbd';
+    src: url('../fonts/CLBOLF.woff2') format('woff2'),
+        url('../fonts/CLBOLF.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Clbd';
+    src: url('../fonts/CLBKSC.woff2') format('woff2'),
+        url('../fonts/CLBKSC.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Clbd';
+    src: url('../fonts/CLBD.woff2') format('woff2'),
+        url('../fonts/CLBD.woff') format('woff');
+    font-weight: bolder;
+    font-style: normal;
+}
+
+$font-family-sans-serif : 'Clbd', Arial, sans-serif;
+$font-family-title: 'Clbd', Arial, sans-serif;
+$font-family-base:  $font-family-sans-serif;
